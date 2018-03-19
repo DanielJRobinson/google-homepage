@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/google-homepage.css">
+  <title>Google Copy</title>
+  <body>
+    <div class="hbar">
+    <a class="hbartext" href="#">Mail</a>
+    <a class="hbartext" href="#">Images</a>
+  </div>
+  <center>
+  <div class="logo">
+    <img id="googlelogo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+  </div>
+<div class="search">
+  <div>
+    <input id="searchbar" type="search" value="" name="search">
+  </div>
+    <div class="buttons">
+      <input class="searchbutton" id="searchbutton" type="submit" value="Google Search" name="search">
+      <input class="searchbutton" id="lucky" type="submit" value="I'm Feeling Lucky" name="search">
+    </div>
+  </div>
+</center>
+    <div class="fbar">
+      <div class="ftop">
+          <span class="country">United Kingdom</span>
+      </div>
+      <div class="fbottom">
+        <div class="fbotleft">
+          <span>Advertising</span>
+          <span>Business</span>
+          <span>About</span>
+        </div>
+        <div class="fbotright">
+          <span>Privacy</span>
+          <span>Terms</span>
+          <span>Settings</span>
+          <span>Use Google.com</span>
+        </div>
+      </div>
+</div>
+</body>
+</html>
