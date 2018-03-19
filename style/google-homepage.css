@@ -9,6 +9,9 @@ body{
 center{
   height:233px;
   margin-top: 89px;
+  text-align: center;
+  -webkit-text-align: center;
+  -moz-text-align: center;
 }
 .hbar{
   position: absolute;
@@ -27,12 +30,14 @@ text-align: right;
 .logo{
   margin: 0 auto;
   padding: 0 0 0 0;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 #googlelogo{
 width: 272px;
 height: 92px;
-position: absolute;
-right: auto;
+padding-top: 109px;
 }
 .search{
   align-content: center;
@@ -45,9 +50,10 @@ padding-top: 7%;
   height: 34px;
   border-radius: 0 0 0 0;
   border:medium none;
-  padding: 0px;
+  padding: 5px, 16px 9px 0px;
   margin: 0px;
   box-shadow: 0 0 1px 1px;
+  margin-top: 159px;
   }
 .searchbutton {
 font-family: arial,sans-serif;
