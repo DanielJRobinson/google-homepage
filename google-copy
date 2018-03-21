@@ -13,7 +13,7 @@
     <img id="googlelogo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
   </div>
 <div class="search">
-  <div>
+  <div class="sb">
     <input id="searchbar" type="search" value="" name="search">
   </div>
     <div class="buttons">
