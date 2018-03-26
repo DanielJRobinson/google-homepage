@@ -5,8 +5,9 @@ html, body{
 body{
   font-family: arial,sans-serif;
   background-color: white;
+  position:fixed;
 }
-center{
+.center{
   height:233px;
   margin-top: 89px;
   text-align: center;
@@ -14,23 +15,44 @@ center{
   -moz-text-align: center;
 }
 .hbar{
-  position: absolute;
+  position: fixed;
   top:0;
   left: 0;
   right: 0;
-  width:100%;
-  padding: 20px 50px 10px 0;
+  padding: 15px 10px 10px 0;
 text-align: right;
 }
 .hbartext{
   right:0;
   padding-top: 0px;
   text-decoration: none;
+  color: #000000de;
+  font-size: 13px;
+  margin: 0 8px 0 8px;
+}
+#grid{
+  height: 20px;
+  width: 20px;
+  margin: 0 8px 1px 8px;
+  position: relative;
+
+}
+.hbarbutton{
+background-color: #4285f4;
+border: 1px solid #4285f4;
+color: white;
+border-radius: 3px;
+padding: 6px 12px 6px 12px;
+font-size: 13px;
+font-family: arial, sans-serif;
+font-weight: bold;
+margin-right: 15px;
+
 }
 .logo{
   margin: 0 auto;
   padding: 0 0 0 0;
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
 }
@@ -40,10 +62,9 @@ height: 92px;
 padding-top: 109px;
 }
 .search{
-  align-content: center;
-  padding-left: 31%;
-  padding-right: 31%;
-padding-top: 7%;
+  position: fixed;
+  padding-left:27%;
+padding-top: 5%;
 }
 
 .sb{
@@ -52,14 +73,32 @@ padding-bottom:2px ;
 padding-top:3px ;
 padding-right: 20px;
 margin-top: -3px;
-
-width:484px;
-height: 44px;
+width:574px;
+height: 37px;
 display: block;
-border: 0px;
-box-shadow: 2px 2px 2px 2px #e4dfdf;
+border: 1px solid;
+border-bottom: 2px solid #e4dfdf;
+border-color: #e4dfdf;
 margin-top: 159px;
 }
+.sb:hover{
+  box-shadow: 2px 2px 2px 2px #e4dfdf;
+}
+.line{
+height:1px:
+width: 40%;
+padding: 0px 21px 0px 1px;
+box-shadow: 1px 1px 1px 1px #e5dfdf;
+
+}
+.sbmic{
+  height:27px;
+  width: 26px;
+  position: fixed;
+  padding-top:7px;
+  padding-right: 2px;
+  padding-left: 24px;
+  }
 #searchbar {
   width:459px;
   height: 34px;
@@ -99,22 +138,43 @@ line-height: 27px;
  border-radius: 2px;
 }
 .fbar{
-  visibility: visible;
+visibility: visible;
 bottom: 0;
 left: 0;
-position: absolute;
+position: fixed;
 right: 0;
 background: #f2f2f2;
 border-top:1px solid #e4e4e4;
 line-height: 40px;
 min-width: 980px;
+color: #0000008a;
 }
 .ftop{
+  padding-left: 27px;
+  border-top: 1px solid #e4e4e4;
+}
+.fbottom{
+
+    margin-left: 3px;
+  border-top: 1px solid #e4e4e4;
 }
 .fbotleft{
   text-align: left;
+  position: relative;
+  font-size: small;
+      padding-left: 25px;
+      color: #0000008a;
+      text-decoration: none;
 }
 .fbotright{
   text-align: right;
-  word-spacing: 2px;
+  right:;
+  font-size: small;
+
+    padding-left: 25px;
+    color: #0000008a;
+    text-decoration: none;
+}
+#pri{
+  padding-left: 55%;
 }

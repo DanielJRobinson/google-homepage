@@ -5,38 +5,40 @@
   <title>Google Copy</title>
   <body>
     <div class="hbar">
-    <a class="hbartext" href="#">Mail</a>
+    <a class="hbartext" href="#">Gmail</a>
     <a class="hbartext" href="#">Images</a>
-  </div>
-  <center>
+    <a class="hbarimage" href="#" role="button" Title="Google apps"><img src="images/grid.png" id="grid"></a>
+  <input class="hbarbutton" href="#" type="button" value="Sign in"></a>
+    </div>
+  <div class="center">
   <div class="logo">
     <img id="googlelogo" src="images/googlelogo_color_272x92dp.png" alt="Google logo">
   </div>
 <div class="search">
   <div class="sb">
     <input id="searchbar" type="search" value="" name="search">
+    <img src="images/mic.png" alt="microphone" class="sbmic">
   </div>
+  <div class="line"></div>
     <div class="buttons">
       <input class="searchbutton" id="searchbutton" type="submit" value="Google Search" name="search">
       <input class="searchbutton" id="lucky" type="submit" value="I'm Feeling Lucky" name="search">
     </div>
   </div>
-</center>
+</div>
     <div class="fbar">
       <div class="ftop">
           <span class="country">United Kingdom</span>
       </div>
       <div class="fbottom">
-        <div class="fbotleft">
-          <span>Advertising</span>
-          <span>Business</span>
-          <span>About</span>
-        </div>
-        <div class="fbotright">
-          <span>Privacy</span>
-          <span>Terms</span>
-          <span>Settings</span>
-          <span>Use Google.com</span>
+          <a href="#" class="fbotleft" id="ad">Advertising</a>
+          <a href="#" class="fbotleft" id="bus">Business</a>
+          <a href="#" class="fbotleft" id="about">About</a>
+
+          <a href="#" class="fbotright" id="pri">Privacy</a>
+          <a href="#" class="fbotright" id="terms">Terms</a>
+          <a href="#" class="fbotright" id="set">Settings</a>
+          <a href="#" class="fbotright" id="use">Use Google.com</a>
         </div>
       </div>
 </div>
